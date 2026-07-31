@@ -7879,3 +7879,21 @@ html > body div > div > div > div > div > div.sidebar__409aa > div.navScroller__
 	transform: unset !important;
 	animation: unset !important;
 }
+
+/* ==== BasicBackground / DevilBro watermark kaldırma (manuel eklendi) ==== */
+
+html:only-child > head + body div.bar_c38106 > div.title_c38106::before,
+html:only-child > head + body div.bar_c38106 > div.title_c38106::after {
+	content: none !important;
+	opacity: 0 !important;
+	display: none !important;
+}
+html:only-child > head + body div.bar_c38106:hover > div.title_c38106::after {
+	opacity: 0 !important;
+}
+
+html:only-child > head + body div.app_a3002d > div.app__160d8 > div.layers__960e4.layers__160d8 > div.layer__960e4.baseLayer__960e4 + div.layer__960e4 > div.standardSidebarView__23e6b::after {
+	content: none !important;
+	opacity: 0 !important;
+	display: none !important;
+}
