@@ -7882,6 +7882,7 @@ html > body div > div > div > div > div > div.sidebar__409aa > div.navScroller__
 
 /* ==== BasicBackground / DevilBro watermark kaldırma (manuel eklendi) ==== */
 
+html:only-child > head + body div.bar_c38106 > div.title_c38106::before,
 html:only-child > head + body div.bar_c38106 > div.title_c38106::after {
 	content: none !important;
 	opacity: 0 !important;
